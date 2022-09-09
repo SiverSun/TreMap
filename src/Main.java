@@ -11,7 +11,6 @@ public class Main {
         people.add(new Person("Katerina", "Volkova", 18));
 
         PersonComparator personComparator = new PersonComparator(7);
-        //people.sort(personComparator);
         Collections.sort(people, personComparator);
         System.out.println("Отсортированный список: " + people);
     }
